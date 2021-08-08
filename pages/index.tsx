@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Header } from '../components/organisms/Header'
 import { Presentation } from '../components/templates/Presentation'
+import Stacks from '../components/templates/Stacks'
 export default function Home() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Presentation/>
+      <Stacks/>
     </div>
 
       

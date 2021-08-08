@@ -1,14 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
-import { StyledLinkButtom} from './styles';
+import { StyledLinkButtom, StyledLinkButtomProps} from './styles';
 
-type Props = {
+export interface LinkButtomProps extends StyledLinkButtomProps {
     title: string;
     href: string;
-    bgColor?: boolean;
 }
 
-export const LinkButtom: React.FC<Props> = ({title, href, bgColor}) => {
+export const LinkButtom: React.FC<LinkButtomProps> = ({title, href, bgColor}) => {
   return (
     <Link href={href} passHref>
       <StyledLinkButtom href={href} bgColor={bgColor}>

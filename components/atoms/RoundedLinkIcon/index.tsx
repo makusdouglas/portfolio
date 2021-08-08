@@ -3,7 +3,7 @@ import React from 'react';
 
 import { StyledIconLink } from './styles';
 interface Props extends LinkProps {
-  icon: () => JSX.Element;
+  icon: React.ReactNode;
   bgColor: string;
 }
 

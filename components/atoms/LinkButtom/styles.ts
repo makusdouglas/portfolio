@@ -2,13 +2,14 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import { darken, lighten } from 'polished';
 
-type styledLinkProps = {
+export type StyledLinkButtomProps = {
   bgColor?: boolean;
 };
 
-export const StyledLinkButtom = styled.a<styledLinkProps>`
+export const StyledLinkButtom = styled.a<StyledLinkButtomProps>`
   display: block;
   text-align: center;
+  max-width: max-content;
   font-size: ${props => props.theme.fontSizes.md};
   font-weight: bold;
   background: ${props =>

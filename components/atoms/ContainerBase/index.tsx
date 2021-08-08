@@ -1,10 +1,13 @@
 import React from 'react';
 
-import { Container, ContainerBaseProps} from './styles';
+import { Container, ContaineAround, ContainerBaseProps} from './styles';
 
 export const ContainerBase: React.FC<ContainerBaseProps> = ({children, ...rest}) => {
-  return (      
+  return (     
+        <ContaineAround {...rest}>
           <Container {...rest} >{children}</Container>
+
+        </ContaineAround> 
   );
 }
 

@@ -4,4 +4,12 @@ type Props = {
 };
 export const StyledIconLink = styled.a<Props>`
   background: ${props => props.bgColor};
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  padding: 10px;
+  border-radius: 50%;
 `;
