@@ -7,7 +7,7 @@ export const ContaineAround = styled.div<ContainerBaseProps>`
     props.bg === 'primary'
       ? props.theme.color.bgPrimary
       : props.theme.color.bgSecondary};
-  width: 100vw;
+  width: 100%;
   height: 90vh;
 `;
 export const Container = styled.div<ContainerBaseProps>`

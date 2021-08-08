@@ -13,9 +13,9 @@ export const theme: DefaultTheme = {
   },
   shadow: '',
   fontSizes: {
-    sm: '12px',
-    md: '18px',
-    lg: '22px',
-    xl: '28px',
+    sm: '14px',
+    md: '20px',
+    lg: '28px',
+    xl: '34px',
   },
 };

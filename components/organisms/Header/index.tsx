@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
           <div>
             <NavContainer>
                 <LinkButtom
-                    href="/stacks"
+                    href="#stacks"
                     title="Stacks"
                 />
                 <LinkButtom
